@@ -1,0 +1,10 @@
+h1{
+    color: rgb(173, 20, 20);
+}
+body{
+    background-color: #131313;
+}
+::-moz-selection {
+   background-color: #7f51c4;
+   color: rgb(33, 176, 73);
+}
