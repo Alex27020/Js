@@ -21,8 +21,8 @@
 
 // 2_Мутирование
 
-//console.log('Имя человека: ' + name1 + ', а возраст: ' + age + ' лет' )
-//alert('Имя человека: ' + name1 + ' ' + surname + ', а возраст: ' + age + ' лет' )
+// console.log('Имя человека: ' + name1 + ', а возраст: ' + age + ' лет' )
+// alert('Имя человека: ' + name1 + ' ' + surname + ', а возраст: ' + age + ' лет' )
 
 //const surname1 =prompt('Введите фамилию:')
 //const name_1 =prompt('Введите имя:')
@@ -111,5 +111,87 @@ console.log(c)
 function calculateAge(year) {
    return 2023 - year
 }
-const myAge = calculateAge(2008)
-console.log(myAge)
+// let myAge = calculateAge(2008)
+// console.log(myAge)
+// myAge = calculateAge(1000)
+// console.log(myAge)
+// console.log(calculateAge(2000))
+// console.log(calculateAge(3000))
+
+// function LogInfoAbout(name, year) {
+//    const age = calculateAge(year)
+//    console.log('Человек по имени ' + name + ' сейчас имеет возраст ' + age + ' лет!')
+// }
+// LogInfoAbout('Александр', 2008)//Не пишем console.log тк в самой функциии уже прописано
+//Мой код
+
+   const name_1 = prompt('Введите Имя')
+   const birthYear = prompt('Введите год рождения')
+
+   function information(name_2, age) {
+   age = calculateAge(birthYear)
+   if (age > 0){
+   alert('Тебя зовут ' + name_2 + "!" + ' Поздравляю, ' + name_2 + ', тебе в этом году целых ' + age + '!!1!11!)))11!)0' + ' Йоу, ты уже такой большой, ' + name_2 + '!!')
+   } else {
+      alert('Слышь, ты, корректную дату рождения поставь, пожалуйста(')   
+   }
+}
+information(name_1)
+
+//_9 Массивы
+// const cars = ['Мазда', 'Мерседес', 'Форд']
+//const cars = new Array('Мазда', 'Мерседес', 'Форд')
+// console.log(cars)
+// console.log(cars.length)
+// console.log(cars.length)//номер массива
+// console.log(cars[1])
+// console.log(cars[0])
+// console.log(cars[2])
+
+// cars[0] = 'Porsche'
+// console.log(cars[0])
+// cars[cars.length] = 'Mazda'//добавляет в конец массива новое значение, млжно написать cars[cars.length]         
+// console.log(cars)
+
+//_10 Циклы
+// const cars = ['Мазда', 'Мерседес', 'Форд']
+
+// for (let i = 0; i < cars.length; i++) {
+//    const car = cars[i]
+//    console.log(car)
+// }
+
+// for (let car of cars) {
+//    console.log(car)
+// }
+
+//11_ Объекты
+// const person = new Object()
+// const person ={
+//    firstname: 'Lobach',
+//    lastName: 'Alex',
+//    year: 2008,
+//    languages: ['Ru', 'En', 'De'],
+//    hasWife: false,
+//    greet: function() {
+//       console.log('greet fuckin cuming')
+//    }
+// }
+// //console.log(person)//
+// console.log(person.year)
+// console.log(person['year'])//чтрочка!
+// const key = 'languages'
+
+// person.hasWhite = true
+// person.hasWifeWhite = true
+// person.greet(console.log(person[key]))
+
+
+
+
+
+
+
+
+
+
